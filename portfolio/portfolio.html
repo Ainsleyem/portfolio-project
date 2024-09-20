@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Webpage</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  </head>
+  <body>
+    <nav id='navbar' class='nav'>
+      <header id='header'>
+        <ul class='nav-link'>
+          <li><a href='#welcome-section'>Welcome</a></li>
+          <li><a href='#projects'>Projects</a></li>
+          <li><a href='#profile-link'>Profile</a></li>
+        </ul>
+      </header>
+    </nav>
+    <main>
+      <section id='welcome-section' class='welcome-section'>
+        <h1>Welcome, My name is Ainsley Entsua-Mensah</h1>
+        <h4>An inspiring programmer</h4>
+      </section>
+      <section id='projects' class='projects'>
+        <h2 class='projects-header'>Here are some of my projects</h2>
+        <div class="projects-grid">
+    <a href="file:///C:/Users/Emens/OneDrive/code/Translator%20App/index.html" target="_blank" class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src='http://x7d4c5z5.stackpathcdn.com/wp-content/uploads/tc/2023/01/9_new_African_languages_added_to_Google_translate_offline_support_2_01-scaled.jpg' alt='project'
+      />
+      <p class="project-title">Translator App</p>
+    </a>
+    <a href="file:///C:/Users/Emens/OneDrive/code/Random%20quote%20generator/index.html" target="_blank" class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src='data:image/png;base64,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' alt='project'
+      />
+      <p class="project-title">Random Quote Generator</p>
+    </a>
+    <a href="https://codepen.io/Ainsleyem/pen/poZPaXb" target="_blank" class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src='https://getthematic.com/insights/content/images/wordpress/2018/04/shutterstock_730381336.jpg' alt='project'
+      />
+      <p class="project-title">Survey Form</p>
+    </a>
+    <a href="file:///C:/Users/Emens/OneDrive/code/Weather%20App/index.html" target="_blank" class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src='https://cdn.jim-nielsen.com/ios/512/weather-2019-02-07.png' alt='project'
+      />
+      <p class="project-title">Weather App</p>
+    </a>
+    <a href="file:///C:/Users/Emens/OneDrive/code/Crypto%20Price%20App/index.html" target="_blank" class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src='https://u3j7m9h7.rocketcdn.me/wp-content/uploads/2020/12/cryptocurrency-stocks.jpg' alt='project'
+      />
+      <p class="project-title">Crypto Price App</p>
+      <a href="file:///C:/Users/Emens/OneDrive/code/Movie%20Guide%20App/index.html" target="_blank" class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_CgcY8SZV0MHSmtVkdiROAAYDM-tMNQGQqA&usqp=CAU' alt='project'
+      />
+      <p class="project-title">Movie Guide App</p>
+    </a>
+      </section>
+      <section id='contact-link' class='contact-link'>
+        <div class="contact-section-header">
+    <h2>Let's work together :)</h2>
+    <p>Here are my contact links</p>
+  </div>
+  <div class="contact-links">
+    <a
+      href="https://www.facebook.com/profile.php?id=100010957931113"
+      target="_blank"
+      class="btn contact-details">
+      <i class="fab fa-facebook-square"></i> Facebook</a>
+    <a
+      id="profile-link"
+      href="https://github.com/Ainsleyem"
+      target="_blank"
+      class="btn contact-details">
+      <i class="fab fa-github"></i> GitHub</a>
+    <a
+      href="https://www.linkedin.com/in/ainsley-entsua-mensah-207b14213/"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-linkedin"></i> Linkedin</a
+    >
+    <a href="mailto:entsuamensaha@yahoo.com" class="btn contact-details"
+      ><i class="fas fa-at"></i> Send a mail</a
+    >
+      </section>
+    </main>
+  </body>
+</html>
